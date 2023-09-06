@@ -9,6 +9,8 @@
     <script src="../Controller/Dashboard/FuncionarioMaisPediu.js"></script>
      <script src="../Controller/Dashboard/QuantidadeProduto.js.js"></script>
      <script src="../Controller/Dashboard/TurnoMaisPediu.js"></script>
+     <script src="../Controller/Dashboard/Sobre.js"></script>
+     <script src=""></script>
     <link rel="stylesheet" href="css/dashboard.css">
     <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -84,7 +86,7 @@
             </a>
           </li>
         <li class="item-menu">
-            <a href="#">
+            <a href="#" onclick="abrirSobre()">
                 <span class="icon"><i class="bi bi-info-circle"></i></span>
                 <span class="txt-link">Sobre</span>
             </a>
@@ -153,6 +155,21 @@
    </div>
 
    </header>
+   <div class="modalSobre">
+    <h1>Nossa missão é desenvolver, amplificar e conectar !</h1>
+    <h1>Quem Somos?</h1>
+    <h4>Estudantes Desenvolverdores de Sistemas</h4>
+    <h4>Fabio Nascimento</h4>
+    <h4>Enrico Brasil</h4>
+    <h4>Lorena Freitas</h4>
+    <h4>Everson Silva</h4>
+    <h1>Nossos Valores?</h1>
+    <h4>Sonhamos grande.</h4>
+    <h4>Somos ágeis, proativos e pioneiros.</h4>
+    <h4>Quebramos barreiras.</h4>
+    <h4>Respeitamos compromissos.</h4>
+    <span onclick="fecharSobre()" class="fechar">&times;</span>
+  </div>
 
 
 
