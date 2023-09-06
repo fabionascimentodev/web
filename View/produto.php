@@ -102,7 +102,7 @@
             <a href="#">
               <span class="icon"><i class="bi bi-info-circle"></i></span>
 
-              <span class="txt-link">Ajuda</span>
+              <span class="txt-link">Sobre</span>
             </a>
           </li>
 
